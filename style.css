@@ -103,3 +103,21 @@ font-size:50px;
 margin-top: 30px;
 margin-bottom: 20px;
 }
+@media (max-width:468px) {
+    .product-container{
+        display:block;
+        flex-direction: column;
+        padding: 60px 40px;
+        justify-content: center;
+        align-items: center;
+}
+
+.card{
+display: block;   
+border-radius: 12px;
+width:25%;
+text-align: center;
+align-items: center;
+flex-direction: column;
+}
+}
