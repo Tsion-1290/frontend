@@ -165,5 +165,51 @@ flex-direction: column;
   }
 }
 
+.arrows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: aliceblue;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
 
+.arrow {
+  font-size: 40px;
+  color: #4CAF50; 
+  cursor: pointer;
+
+}
+
+
+.center-content {
+  max-width: 500px;
+  text-align: center;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.testimonial-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #4CAF50; 
+}
+
+.center-content h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.center-content p {
+  font-size: 16px;
+  color: #555;
+}
 
