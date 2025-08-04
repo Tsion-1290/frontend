@@ -213,3 +213,47 @@ flex-direction: column;
   color: #555;
 }
 
+.subscribe-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: aliceblue;
+}
+
+.subscribe-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subscribe-section p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    color: #666;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.subscribe-form input {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 1px 
+    border-radius: 6px;
+    width: 300px;
+}
+
+.subscribe-form button {
+    padding: 12px 20px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+}
+
+
+
+
