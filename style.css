@@ -241,7 +241,6 @@ flex-direction: column;
     padding: 12px 20px;
     font-size: 16px;
     border: 1px 
-    border-radius: 6px;
     width: 300px;
 }
 
@@ -253,6 +252,47 @@ flex-direction: column;
     border: none;
     border-radius: 6px;
 }
+
+footer {
+  background-color: #222;         
+  color: white;                  
+  padding: 40px 20px;            
+  text-align: center;             
+}
+
+footer h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #7fff7f;                 
+}
+
+footer h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #90ee90;                
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 ;
+}
+
+footer ul li {
+  margin: 5px 0;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 8px 0;
+  opacity: 0.8;
+}
+
 
 
 
